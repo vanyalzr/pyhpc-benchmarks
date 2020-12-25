@@ -12,7 +12,7 @@ from utilities import (
 )
 
 
-DEFAULT_SIZE = tuple(2 ** i for i in range(12, 23, 2))
+DEFAULT_SIZE = (1000, 2000, 3000, 4000)
 
 
 @click.command('run')
